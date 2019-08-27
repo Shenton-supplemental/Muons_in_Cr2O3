@@ -1,0 +1,3 @@
+Note that, because the extra electron is delocalised in this state (we actually have no gap!), the tetrahedron method is not expected to give accurate forces. 
+
+The structure is therefore relaxed using Gaussian smearing, and then a two independant self-consistent calculations are performed, one with Gaussian smearing (to confirm the low-forces) and one with the tetrahedron method to get an accurate total energy. The output files are labelled as such.
